@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"><title>Document</title>
+</head>
+<body>
+<header class="container-introduction">
+    <h1>Bem vindo a Hogwarts</h1>
+    
+</header>
+<main class="container-with-questions">
+    <p>Eu sou o chapéu seletor e vou te ajudar a selecionar a sua casa ideal para você:</p>
+        <h1>Voce se considera mais:</h1>
+    <form>
+        <input type="radio" id="Inteligente" name="question-01" value="Inteligente">
+        <label for="Inteligente">Inteligente</label><br>
+        <input type="radio" id="Corajoso" name="question-01" value="Corajoso">
+        <label for="Corajoso">Corajoso</label><br>
+        <input type="radio" id="Solidário" name="question-01" value="Solidário">
+        <label for="Solidário">Solidário<br></label>
+        <input type="radio" id="Altruísta" name="question-01" value="Altruísta">
+        <label for="Altruísta">Altruísta</label>
+    </form>
+        <h1>Se voce estivesse sozinho com um amigo e um trasgo tentasse o atacar, o que voce faria:</h1>
+    <form>
+        <input type="radio" id="procuraria" name="question-02" value="procuraria">
+        <label for="procuraria">Procuraria a melhor maneira para evitar a morte do amigo</label><br>
+        <input type="radio" id="lutaria" name="question-02" value="lutaria">
+        <label for="lutaria">Lutaria com o trasgo</label><br>
+        <input type="radio" id="ficaria" name="question-02" value="ficaria">
+        <label for="ficaria">Ficaria ao lado do seu amigo ate a morte<br></label>
+        <input type="radio" id="correria" name="question-02" value="correria">
+        <label for="correria">Correria para salvar sua vida</label>
+    </form>
+        <h1>Qual seu animal predileto:</h1>
+    <form>
+        <input type="radio" id="eagle" name="question-03" value="eagle">
+        <label for="eagle">Uma águia</label><br>
+        <input type="radio" id="lion" name="question-03" value="lion">
+        <label for="lion">Um leão</label><br>
+        <input type="radio" id="texugo" name="question-03" value="texugo">
+        <label for="texugo">Um texugo<br></label>
+        <input type="radio" id="serpente" name="question-03" value="serpente">
+        <label for="serpente">Uma serpente</label>
+    </form>
+        <h1>Voce prefere ser lembrado por:</h1>
+    <form>
+        <input type="radio" id="sabedoria" name="question-04" value="sabedoria">
+        <label for="sabedoria">Pela sua sabedoria</label><br>
+        <input type="radio" id="bravura" name="question-04" value="bravura">
+        <label for="bravura">Pela sua bravura</label><br>
+        <input type="radio" id="fazer-bem" name="question-04" value="fazer-bem">
+        <label for="fazer-bem">Por fazer o bem<br></label>
+        <input type="radio" id="grandeza" name="question-04" value="grandeza">
+        <label for="grandeza">Pela sua grandeza</label>
+    </form>
+        <h1>Voce odiaria ser chamado de:</h1>
+    <form>
+        <input type="radio" id="ignorante" name="question-05" value="ignorante">
+        <label for="ignorante">Ignorante</label><br>
+        <input type="radio" id="covarde" name="question-05" value="covarde">
+        <label for="covarde">Covarde</label><br>
+        <input type="radio" id="egoist" name="question-05" value="egoist">
+        <label for="egoist">Egoist<br></label>
+        <input type="radio" id="trouxa" name="question-05" value="trouxa">
+        <label for="trouxa">Trouxa</label>
+    </form>
+        <h1>Qual das cores abaixo faz seu olho brilhar:</h1>
+    <form>
+        <input type="radio" id="blue" name="question-06" value="blue">
+        <label for="blue">O azul do ceu</label><br>
+        <input type="radio" id="red" name="question-06" value="red">
+        <label for="red">O vermelho do fogo</label><br>
+        <input type="radio" id="yellow" name="question-06" value="yellow">
+        <label for="yellow">O amarelo do Sol<br></label>
+        <input type="radio" id="green" name="question-06" value="green">
+        <label for="green">O verde das arvores </label>
+        <br>
+    </form>
+    <button type="button" onclick="novaPergunta()">
+        <img src="./assets/icons8-hogwarts-50.png" alt="Casa de Hogwarts">
+    </button>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
